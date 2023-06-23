@@ -28,6 +28,8 @@ class employeeinsertcontroller extends Controller
         }
        
         return view('emplist',compact('e'));
+
+        
     }
     public function index(){
         return view('index');
